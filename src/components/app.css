@@ -1,0 +1,23 @@
+.calculator {
+    height: 300px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.form-control {
+    width: 50%;
+}
+
+.buttons {
+    width: 50%;
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20%;
+    grid-gap: 10px 10px;
+}
+
+button {
+    text-align: center;
+}
