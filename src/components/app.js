@@ -10,23 +10,23 @@ const App = () => {
         <div className='calculator'>
             <Display />
             <ButtonsGroup>
-                <Button label='C' value='clear' />
-                <Button label='±' value='toggle'/>
-                <Button label="%" value="percent"/>  
-                <Button label="÷" value="operation"/>
-                <Button label="7" value="number"/>
-                <Button label="8" value="number"/>        
-                <Button label="9" value="number"/>  
-                <Button label="x" value="operation"/>  
-                <Button label="4" value="number"/>  
-                <Button label="5" value="number"/>
-                <Button label="6" value="number"/>
-                <Button label="−" value="operation"/>
-                <Button label="1" value="number"/>  
-                <Button label="2" value="number"/>
+                <Button label='0' value='number' />
+                <Button label='1' value='number'/>
+                <Button label="2" value="number"/>  
                 <Button label="3" value="number"/>
+                <Button label="4" value="number"/>
+                <Button label="5" value="number"/>        
+                <Button label="6" value="number"/>  
+                <Button label="7" value="number"/>  
+                <Button label="8" value="number"/>  
+                <Button label="9" value="number"/>
                 <Button label="+" value="operation"/>
-                <Button label="0" value="number"/>  
+                <Button label="−" value="operation"/>
+                <Button label="X" value="operation"/>  
+                <Button label="/" value="operation"/>
+                <Button label="C" value="clear"/>
+                <Button label="±" value="toggle"/>
+                <Button label="%" value="percent"/>  
                 <Button label="●" value="dot"/>
                 <Button label="=" value="operation"/>
             </ButtonsGroup>
