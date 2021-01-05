@@ -1,25 +1,6 @@
 
 const initialState = {
     counter: 0,
-    buttonss: [
-        { number: '1', key: 'number'},
-        { number: '2', key: 'number'},
-        { number: '3', key: 'number'},
-        { number: 'C', key: 'clear'},
-        { number: '4', key: 'number'},
-        { number: '5', key: 'number'},
-        { number: '6', key: 'number'},
-        { number: '=', key: 'operation'},
-        { number: '7', key: 'number'},
-        { number: '8', key: 'number'},
-        { number: '9', key: 'number'},
-        { number: '.', key: 'dot'},
-        { number: '0', key: 'number'},
-        { number: '+', key: 'operation'},
-        { number: '-', key: 'operation'},
-        { number: '*', key: 'operation'},
-        { number: '/', key: 'operation'}
-    ],
     operation: null,
     operand: 0,
     operator: 0
