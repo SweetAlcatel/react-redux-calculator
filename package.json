@@ -1,7 +1,7 @@
 {
-  "name": "react-redux-router-demo",
+  "name": "react-redux-calculator",
   "version": "1.0.0",
-  "description": "e2e React/Redux demo: Webpack 4, Babel 6, React 16, Redux, React Router",
+  "description": "React/Redux calculator: Webpack 4, Babel 6, React 16, Redux",
   "main": "index.js",
   "scripts": {
     "start": "webpack-dev-server --mode development --open",
@@ -9,7 +9,7 @@
     "build:dev": "webpack --watch --mode development"
   },
   "keywords": [],
-  "author": "",
+  "author": "Dmitriy Sharapov",
   "license": "MIT",
   "devDependencies": {
     "babel-core": "^6.26.0",
