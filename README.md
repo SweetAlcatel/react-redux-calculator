@@ -4,7 +4,7 @@
 This app includes the requisite parts to demonstrate usage of React, Redux. Tooling to compile transpile ES6 using Webpack 4 and Babel.
 
 ## Credits
-Based on the amazing work done by 
+Based on the work done by 
 Dmitriy Sharapov - mrneey@gmail.com
 
 ## Development
